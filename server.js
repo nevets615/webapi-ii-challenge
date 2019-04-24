@@ -1,8 +1,8 @@
 const express = require("express");
 
-const postsRouter = require('./posts/posts-router.js')
+const postsRouter = require('./seeds/posts-router.js')
 
-const db = require("./data/db.js");
+const db = require("./seeds./db.js");
 
 const server = express();
 
